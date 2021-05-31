@@ -1,0 +1,17 @@
+//vendor
+@import "vendor/bootstrap4.6/bootstrap.scss";
+//abstracts
+@import "abstracts/variables";
+@import "abstracts/mixins";
+//base
+//@import "base/reset";
+//components
+@import "components/button";
+//layout
+@import "layout/grid";
+@import "layout/section";
+@import "layout/aside";
+@import "layout/header";
+@import "layout/article";
+//page 
+@import "pages/index";

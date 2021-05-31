@@ -1,0 +1,12 @@
+.galeria {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    &__titulo {}
+    &__item {}
+    &__card {}
+    &__card-body {}
+    &__card-title {}
+    &__card-text {}
+}

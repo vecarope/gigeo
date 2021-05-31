@@ -1,0 +1,40 @@
+.perfil {
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    &__img {
+        background-image: url("../img/profile-image.png");
+        height: 80px;
+        width: 80px;
+        background-size: cover;
+        border-radius: 50px;
+        align-items: center;
+    }
+    &__info {
+        display: flex;
+        flex-grow: 1;
+    }
+    &__detalles {
+        display: flex;
+        flex-direction: column;
+        height: 90px;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 15px;
+    }
+    &__nombre {
+        font-style: bold;
+        font-size: x-large;
+    }
+    &__seguidores {
+        color: $gray;
+    }
+    &__botones {
+        display: none;
+        @include respond-to($min-laptop) {
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+}
